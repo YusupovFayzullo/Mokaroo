@@ -107,7 +107,6 @@ public class FakerApplicationRunner {
             System.out.println("Invalid Field Name");
             return getValidatedFieldName();
         }
-        System.out.println();
         return fieldName;
     }
 
