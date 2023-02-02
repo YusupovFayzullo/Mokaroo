@@ -24,6 +24,7 @@ public class FakerApplicationRunner {
 
 
     public static void main(String[] args) {
+        System.out.println("rfdf");
         var fakerDataGeneratorService = new FakerApplicationService();
         var builder = FakerApplicationGenerateRequest.builder();
         builder.fileName(getValidatedFileName());
@@ -107,7 +108,6 @@ public class FakerApplicationRunner {
             System.out.println("Invalid Field Name");
             return getValidatedFieldName();
         }
-
         return fieldName;
     }
 
