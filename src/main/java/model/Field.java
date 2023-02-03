@@ -26,7 +26,7 @@ public class Field {
         this.func = FakerApplicationService.functions.get(fieldType);
         this.min = min;
         this.max = max;
-        System.out.println("erfgfd");
+       // System.out.println("erfgfd");
     }
 
     public String getPatternAsJson() {
